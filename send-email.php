@@ -6,6 +6,6 @@ if (isset($_REQUEST['email'])) {
     return;
 }
 
-mail('d.bushkanets@gmail.com', 'Email Sign Up', "Email: {$email}");
+mail('chronspire@gmail.com', 'Email Sign Up', "Email: {$email}");
 
 return 'sucess';
